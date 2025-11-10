@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables (never upload API keys)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Temporary files
+.DS_Store
+*.tmp
+
+# Render and IDE files
+.vercel
+.render
+.idea/
+.vscode/
+
+# OS-generated files
+Thumbs.db
